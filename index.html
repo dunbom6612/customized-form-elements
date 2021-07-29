@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styled.css" />
+    <title>Customized Element</title>
+  </head>
+  <body>
+    <form class="content">
+      <div class="button-styled">
+        <button class="button" type="submit">Button</button>
+      </div>
+
+      <div class="toogle-styled">
+        <input type="checkbox" id="toogle" />
+        <label class="toogle" for="toogle">
+          <div class="spin"></div>
+        </label>
+      </div>
+
+      <div class="checkboxs-wrapper">
+        <div class="checkbox-styled">
+          <input type="checkbox" id="checkbox" checked/>
+          <label class="checkbox" for="checkbox">
+            <div class="checkmark"></div>
+          </label>
+        </div>
+
+        <div class="checkbox-styled">
+          <input type="checkbox" id="checkbox2" />
+          <label class="checkbox" for="checkbox2">
+            <div class="checkmark"></div>
+          </label>
+        </div>
+      </div>
+
+      <div class="radios-wrapper">
+        <div class="radio-styled">
+          <input type="radio" id="radio" name="radio1" />
+          <label class="radio" for="radio">
+            <div class="point"></div>
+          </label>
+        </div>
+
+        <div class="radio-styled">
+          <input type="radio" id="radio2" name="radio1" />
+          <label class="radio" for="radio2">
+            <div class="point"></div>
+          </label>
+        </div>
+      </div>
+
+      <input
+        class="input-styled"
+        type="email"
+        placeholder="Enter email address"
+      />
+
+      <textarea class="textarea-styled" placeholder="Enter any text">
+      </textarea>
+    </form>
+  </body>
+</html>
